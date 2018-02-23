@@ -1,0 +1,45 @@
+.cm-s-nightly {
+  font-family: 'Roboto', Noto Sans, Noto Sans Mono, Noto Mono, monospace;
+  font-weight: 400;
+  font-size: 18px;
+  color:  #1A237E; /* 900 indigo */
+  background-color: #FFFFFF; /* white */
+}
+.cm-s-nightly .CodeMirror-selected {background-color: #3F51B5;} /* 500 indigo */
+.cm-s-nightly .CodeMirror-gutter,
+.cm-s-nightly .CodeMirror-gutters {
+  border: none;
+  color:inherit;
+  background-color: #FFFFFF; /* white */
+}
+.cm-s-nightly .CodeMirror-linenumber,
+.cm-s-nightly .CodeMirror-linenumbers {
+  font-weight: inherit;
+  color: inherit;
+  background-color: #FFFFFF; /* white */
+}
+.cm-s-nightly .CodeMirror-lines {
+  font-weight: inherit;
+  color: inherit;
+  background-color: #FFFFFF; /* white */
+}
+.cm-s-nightly .CodeMirror-cursor {border-left: 2px solid #1A237E !important;} /* 900 indigo */
+/* addon: edit/machingbrackets.js */
+.cm-s-nightly .CodeMirror-matchingbracket {
+  font-weight: 600  !important;
+  color: #00E676 !important; /* A400 green */
+  background-color: #FFFFFF; /* white */
+}
+.cm-s-nightly .CodeMirror-nonmatchingbracket {
+  font-weight: 600  !important;
+  color: #F44336 !important; /* 500 red */
+  background-color: #FFFFFF; /* white */
+}
+
+.cm-s-nightly .cm-m-lua {font-weight: 400;color:  #1A237E;} /* 900 indigo */
+.cm-s-nightly .cm-m-lua.cm-variable {font-weight: 400;color: #9C27B0;} /* 500 purple */
+.cm-s-nightly .cm-m-lua.cm-builtin {font-weight: 600;color: #FF5722;} /* 500 deep orange*/
+.cm-s-nightly .cm-m-lua.cm-keyword {font-weight: 600;color:  #1A237E;} /* 900 indigo */
+.cm-s-nightly .cm-m-lua.cm-string {font-weight: 400;color: #4CAF50;} /* 500 green */
+.cm-s-nightly .cm-m-lua.cm-number {font-weight: 400;color: #FF5722;} /* 500 deep orange*/
+.cm-s-nightly .cm-m-lua.cm-comment {font-weight: 400;font-style: italic;color:  #1A237E;} /* 900 indigo */

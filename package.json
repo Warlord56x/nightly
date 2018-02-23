@@ -1,0 +1,34 @@
+{
+  "name": "nightly",
+  "version": "0.0.1",
+  "description": "A simple text editor based on electron.",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/electron .",
+    "dist": "./node_modules/.bin/asar pack . app.asar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aerobird98/nightly.git"
+  },
+  "keywords": [
+    "electron",
+    "dev",
+    "tools",
+    "text",
+    "editor"
+  ],
+  "author": "Aerobird98 (Ádám Török)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aerobird98/nightly/issues"
+  },
+  "homepage": "https://github.com/Aerobird98/nightly#readme",
+  "dependencies": {
+    "codemirror": "^5.35.0"
+  },
+  "devDependencies": {
+    "asar": "^0.14.2",
+    "electron": "^1.8.2"
+  }
+}
