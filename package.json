@@ -1,7 +1,7 @@
 {
   "name": "nightly",
-  "version": "0.0.1",
-  "description": "A simple text editor based on electron.",
+  "version": "0.0.3",
+  "description": "A simple text editor based on electron and codemirror.",
   "main": "app.js",
   "scripts": {
     "test": "./node_modules/.bin/electron .",
@@ -16,7 +16,8 @@
     "dev",
     "tools",
     "text",
-    "editor"
+    "editor",
+    "codemirror"
   ],
   "author": "Aerobird98 (Ádám Török)",
   "license": "MIT",

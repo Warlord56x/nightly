@@ -1,11 +1,14 @@
 .cm-s-nightly {
-  font-family: 'Roboto', Noto Sans, Noto Sans Mono, Noto Mono, monospace;
   font-weight: 400;
   font-size: 18px;
   color:  #1A237E; /* 900 indigo */
   background-color: #FFFFFF; /* white */
 }
-.cm-s-nightly .CodeMirror-selected {background-color: #3F51B5;} /* 500 indigo */
+.cm-s-nightly .CodeMirror-selected {
+  border: none;
+  color: #FFFFFF; /* white */
+  background-color: #3F51B5; /* 500 indigo */
+}
 .cm-s-nightly .CodeMirror-gutter,
 .cm-s-nightly .CodeMirror-gutters {
   border: none;
@@ -14,23 +17,29 @@
 }
 .cm-s-nightly .CodeMirror-linenumber,
 .cm-s-nightly .CodeMirror-linenumbers {
+  border: none;
   font-weight: inherit;
   color: inherit;
   background-color: #FFFFFF; /* white */
 }
 .cm-s-nightly .CodeMirror-lines {
+  border: none;
   font-weight: inherit;
   color: inherit;
   background-color: #FFFFFF; /* white */
 }
-.cm-s-nightly .CodeMirror-cursor {border-left: 2px solid #1A237E !important;} /* 900 indigo */
+.cm-s-nightly .CodeMirror-cursor {
+  border-left: 2px solid #1A237E !important; /* 900 indigo */
+}
 /* addon: edit/machingbrackets.js */
 .cm-s-nightly .CodeMirror-matchingbracket {
+  border: none;
   font-weight: 600  !important;
   color: #00E676 !important; /* A400 green */
   background-color: #FFFFFF; /* white */
 }
 .cm-s-nightly .CodeMirror-nonmatchingbracket {
+  border: none;
   font-weight: 600  !important;
   color: #F44336 !important; /* 500 red */
   background-color: #FFFFFF; /* white */
